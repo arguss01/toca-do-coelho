@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E2A169;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F6C43;
+    color: white;
+    padding: 20px;
+    height: 250px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2rem;
+}
+
+.titulo span {
+    color: #f2a745; /* Cor do texto "escola infantil" */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+}
+.um{
+    display:inline-flex;
+    margin: 40px;
+}
+.dois{
+    display:inline-flex;
+    margin: 40px;
+}
+.branco{
+    height: 200px; 
+    width: 200px;
+}
+footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: #1F6C43 ;
+}
+.localização{
+    margin: 40px;
+}
