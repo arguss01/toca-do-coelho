@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -42,11 +45,9 @@ nav ul {
     gap: 20px;
 }
 
-nav ul li a {
+.link{
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    font-size: 1.1rem;
 }
 
 .social-icons {
@@ -81,6 +82,61 @@ nav ul li a {
 }
 
 .imgG img {
-    width: 100%; /* Faz com que a imagem grande ocupe toda a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%; 
+    height: auto; 
+}
+.acess{
+    margin: 40px;
+    display: flex;
+    align-items: baseline;
+}
+.acess h2{
+    margin-right: 10px;
+    color: #ffffff;
+}
+.aceço{
+    margin: 40px;
+    display: flex;
+    align-items: inline;
+}
+.aceço p{
+    display: flex;
+}
+.aceço .assistente{
+    display: flex;
+    align-items: baseline;
+    height: 300px;
+    width: 300px;
+}
+.manchete{
+    color: #ffffff;
+    margin: 40px
+}
+.jornal{
+    margin: 40px;
+    display: flex;
+    align-items: inline;
+}
+.jornal1{
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+}
+.jornal3{
+    margin: 40px;
+    display: flex;
+    align-items: inline;
+}
+.jornal2{
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+}
+footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: #1F6C43 ;
+}
+.localização{
+    margin: 40px;
 }
