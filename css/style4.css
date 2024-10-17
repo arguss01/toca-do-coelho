@@ -17,11 +17,14 @@ header {
     color: white;
     padding: 20px;
     height: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 .logo img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
 .titulo {
@@ -32,49 +35,91 @@ header {
     font-size: 2rem;
 }
 
-.titulo span {
-    color: #f2a745; /* Cor do texto "escola infantil" */
+.titulo h3 {
+    color: #f2a745; 
 }
 
-nav ul {
+nav {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 1.35rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 1.1rem;
+nav a {   
+    color: white; 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    text-decoration: underline; 
 }
 
 .social-icons {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .social-icons img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+}
+.historia{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .um{
     display:inline-flex;
     margin: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
 }
 .dois{
     display:inline-flex;
     margin: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
 }
 .branco{
-    height: 200px; 
-    width: 200px;
+    height: 300px; 
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
 }
-footer{
+.footer {
     display: flex;
-    justify-content:space-between;
-    background-color: #1F6C43 ;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #1F6C43;
+    color: white;
+    height: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 20px; 
 }
-.localização{
-    margin: 40px;
+
+.footer a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+}
+
+.footer div {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
 }
