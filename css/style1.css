@@ -1,9 +1,12 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #E2A169;
@@ -36,7 +39,7 @@ header {
 }
 
 .titulo h3 {
-    color: #f2a745; /* Cor do texto "escola infantil" */
+    color: #f2a745; 
 }
 
 nav {
@@ -54,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    text-decoration: underline; 
 }
 
 .social-icons {
@@ -75,7 +78,7 @@ nav a:hover {
 }
 
 .imgFachada img {
-    width: 525px; /* Aumenta o tamanho da fachada */
+    width: 525px; 
     height: 525px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -88,7 +91,7 @@ nav a:hover {
 }
 
 .imgPatioEscola img {
-    width: 310px; /* Aumenta a largura das imagens do pátio e da escola */
+    width: 310px; 
     height: 250px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -98,29 +101,30 @@ nav a:hover {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 40px;
+    line-height: 1.7;
 }
 
 .sobreNosContent {
-    display: flex; /* Usando flexbox */
-    align-items: flex-start; /* Alinhando o topo dos itens */
+    display: flex; 
+    align-items: flex-start; 
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    margin: 40px 0; /* Margem superior e inferior */
+    margin: 40px 0; 
 
-    width: 100%; /* Ocupa a largura total disponível */
+    width: 100%; 
 }
 
 .sobreNosContent h3 {
-    max-width: max-content; /* Largura máxima para o texto */
+    max-width: max-content; 
     color: black;
 }
 
 .sobreNosContent img {
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    width: 500px; /* Largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-left: 40px; /* Adiciona margem esquerda para afastar a imagem do texto */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 500px; 
+    height: auto; 
+    margin-left: 40px; 
 }
 
 .manchete {
@@ -130,54 +134,54 @@ nav a:hover {
 }
 
 .jornal {
-    margin: 40px; /* Margem da seção */
+    margin: 40px;
 }
 
 .jornal-item {
-    display: flex; /* Usando flexbox */
-    align-items: flex-start; /* Alinhando os itens ao topo */
-    margin-bottom: 20px; /* Espaço entre os itens */
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 20px; 
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    line-height: 1.7;
 }
 
 .jornal img {
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    width: 300px; /* Largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
 }
 
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-around; /* Distribui os itens uniformemente */
+    justify-content: space-around; 
     background-color: #1F6C43;
     color: white;
     height: 250px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
-    padding: 20px; /* Adiciona um espaço interno ao footer */
+    padding: 20px; 
 }
 
 .footer a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: white; /* Altera a cor do texto para branco (ou outra cor desejada) */
+    text-decoration: none; 
+    color: white; 
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    text-decoration: underline; 
 }
 
 .footer div {
-    display: flex; /* Flex para alinhar ícones e texto em linha */
-    align-items: center; /* Centraliza verticalmente os itens */
-    gap: 10px; /* Espaço entre o ícone e o texto */
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
 }
 
 .footer img {
     width: 30px;
     height: 30px;
 }
-
