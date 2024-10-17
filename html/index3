@@ -17,10 +17,10 @@
         </div>
         <nav>
             <ul>
-                <l1><a href="#">Home</a></l1>
+                <l1><a href="index.1.html">Home</a></l1>
                 <l1><a href="#">Matrículas</a></l1>
-                <l1><a href="#">Atividades extras</a></l1>
-                <l1><a href="#">História</a></l1>
+                <l1><a href="index.3.html">Atividades extras</a></l1>
+                <l1><a href="index.4.html">História</a></l1>
             </ul>
         </nav>
         <div class="social-icons">
