@@ -1,109 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <title>Toca do Coelho</title>
+    <title>toca do coelho teste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>.logo-img {width: 180px; height: auto;}
+        .main-image{width: 855px; height: auto;} </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/coelho.jpg" class="coelho">
+    <header class="bg-success text-white">
+        <div class="container py-5 px-1">
+            <div class="row ">
+                <div  class="col col-sm-4 col-md-4 col-xl-4"><img src="coelho (1).jpg" class="logo-img " ></div>
+                <div class="col col-sm-4 col-md-4 col-xl-4">
+                    <div class="">
+                        <h1>Toca do Coelho</h1>
+                    </div>
+                        <p>Escoal infantil</p>
+                    </div>
+                <div class="col col-sm-4 col-md-4 col-xl-4 d-flex justify-content-end">
+                    <a href="https://whatsapp.com" class="ms-3"><img src="icons8-whatsapp-50.png" alt="WhatsApp" width="30"></a>
+                    <a href="https://www.instagram.com" class="ms-3"><img src="icons8-instagram-50.png" alt="Instagram" width="30"></a>
+                    <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" class="ms-3"><img src="icons8-localização-64.png" alt="Localização" width="30"></a>
+                </div>
+            </div>
         </div>
-        <div class="titulo">
-            <h1>Toca do Coelho</h1>
-            <h3>Escola Infantil</h3>
-        </div>
-        <nav>
-            <a href="#Sobre nós">Sobre nós</a>
-            <a href="index.2.html">Matrículas</a>
-            <a href="index.3.html">Atividades Extras</a>
-            <a href="index.4.html">História</a>
-        </nav>
-        <div class="social-icons">
-            <a href="https://whatsapp.com"><img src="img/whatsapp-symbol-logo-svgrepo-com.svg" alt="WhatsApp"></a>
-            <a href="https://www.instagram.com"><img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="Instagram"></a>
-            <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400"><img src="img/icons8-google-maps-novo.svg" alt="Contato"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg d-flex justify-content-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#SobreNos">Sobre nós</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.2.html">Matrículas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.3.html">Atividades Extras</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.4.html">História</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
-    <section class="img">   
 
-        <div class="imgFachada">
-            <img src="img/fachada.jpg" alt="Fachada">
-        </div>  
-
-        <div class="imgPatioEscola">
-            <div class="imgPatio">
-                <img src="img/patio.jpg" alt="Pátio">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 image-container" >
+                <img src="fachada.jpg" alt="Fachada" class="main-image rounded">
             </div>
-            <div class="imgEscola">
-                <img src="img/escola.jpg" alt="Escola">
+            <div class="col-lg-4 col-md-12 small-images">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <img src="patio.jpg" alt="Pátio" class="img-fluid rounded">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <img src="escola.jpg" alt="Escola" class="img-fluid rounded">
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-        
-    <div class="sobreNos">
-        <h2 id="Sobre nós">Sobre nós</h2>  
-        <div class="sobreNosContent"> 
-            <h3>
-                Na Toca do Coelho, nossa missão é proporcionar um ambiente acolhedor e estimulante para o desenvolvimento integral das crianças. Com mais de [XX] anos de história, somos uma instituição de referência no cuidado e na educação infantil, oferecendo um espaço onde os pequenos podem aprender, crescer e brincar com segurança.
-
-                Ao longo de nossa trajetória, nos destacamos pela excelência no ensino e pela dedicação da nossa equipe de profissionais altamente qualificados. Nosso compromisso é com a formação de crianças curiosas, criativas e preparadas para o futuro, sempre respeitando os valores da infância e promovendo o desenvolvimento cognitivo, emocional e social.
-                
-                Somos reconhecidos por nossa abordagem inovadora e por criar um ambiente familiar que fortalece a confiança entre escola e família, formando uma verdadeira parceria para o bem-estar e o crescimento dos nossos alunos. A Toca do Coelho é um lugar onde as crianças aprendem com alegria, em um ambiente que incentiva a descoberta, a autonomia e a construção de amizades.                
-            </h3>    
-            <img src="img/assistente.jpg" alt="assistente">
-        </div>
-    </div>
-    
-    
-    <div class="jornal">
-
-        <h2 class="manchete">Manchetes de destaques</h2>
-    
-        <div class="jornal-item">
-
-            <img src="img/jornal1.jpg" alt="jornal1">
-
-            <h3>"A escola infantil Toca do Coelho se consolida como referência no setor ao adotar práticas inovadoras que garantem plena acessibilidade para todas as crianças. Com uma infraestrutura adaptada e projetos pedagógicos inclusivos, a instituição se destaca pela criação de um ambiente seguro e acolhedor, onde cada aluno, independentemente de suas necessidades, tem a oportunidade de aprender e se desenvolver com autonomia e igualdade."</h3>
-        </div>
-    
-        <div class="jornal-item">
-
-            <img src="img/jornal2.jpg" alt="jornal2">
-
-            <h3>"A escola infantil Toca do Coelho tem se destacado no cenário educacional por sua abordagem inovadora, voltada para a inclusão e o desenvolvimento integral das crianças. Com décadas de experiência, a instituição se tornou referência em acessibilidade e ensino personalizado, sempre comprometida com a formação de um ambiente acolhedor e adaptado para todos os seus alunos.
-
-                Um dos principais diferenciais da Toca do Coelho é sua infraestrutura, pensada para garantir total acessibilidade a crianças com diferentes necessidades. Rampas, elevadores e espaços adaptados fazem parte de uma estrutura que permite que todos os alunos se movimentem com segurança e autonomia. No entanto, a excelência da escola vai além do espaço físico. A equipe pedagógica é composta por profissionais altamente capacitados, incluindo professores especializados, psicólogos e terapeutas, que trabalham em conjunto para criar um ambiente de ensino inclusivo e personalizado.
-                
-                Cada criança é vista como um indivíduo único, com seu próprio ritmo de aprendizado. Por isso, a escola adota uma abordagem que respeita essas diferenças, garantindo que todas as crianças, independentemente de suas necessidades, recebam a atenção e o suporte adequados para desenvolverem suas habilidades ao máximo.
-                
-                Além disso, a Toca do Coelho valoriza o envolvimento da família no processo educativo, promovendo uma verdadeira parceria entre pais e escola."</h3>
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="location">
-            <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" target="_blank" rel="noopener noreferrer">
-                <img src="img/icons8-google-maps-novo.svg" alt="loc2">
-                <p>St. de Grandes Áreas Norte SHCGN 707 - Asa Norte, Brasília - DF, 70297-400</p>
-            </a>
+    <div class="container my-5">
+        <h2 id="SobreNos" class="mb-4">Sobre nós</h2>
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <p class="lead">
+                    Na Toca do Coelho, nossa missão é proporcionar um ambiente acolhedor e estimulante para o desenvolvimento integral das crianças. Com mais de [XX] anos de história, somos uma instituição de referência no cuidado e na educação infantil, oferecendo um espaço onde os pequenos podem aprender, crescer e brincar com segurança.
+                </p>
+                <p>
+                    Ao longo de nossa trajetória, nos destacamos pela excelência no ensino e pela dedicação da nossa equipe de profissionais altamente qualificados. Nosso compromisso é com a formação de crianças curiosas, criativas e preparadas para o futuro, sempre respeitando os valores da infância e promovendo o desenvolvimento cognitivo, emocional e social.
+                </p>
+                <p>
+                    Somos reconhecidos por nossa abordagem inovadora e por criar um ambiente familiar que fortalece a confiança entre escola e família, formando uma verdadeira parceria para o bem-estar e o crescimento dos nossos alunos. A Toca do Coelho é um lugar onde as crianças aprendem com alegria, em um ambiente que incentiva a descoberta, a autonomia e a construção de amizades.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <img src="assistente (1).jpg" alt="Assistente" class="img-fluid rounded-circle">
+            </div>
         </div>
+    </div>
     
-        <div class="zapFooter">
-            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                <img src="img/whatsapp-symbol-logo-svgrepo-com.svg" alt="zap2">
-                <p>61 9 9999-9999</p>
-            </a>
-        </div>
+    <div class="container my-5">
+        <h2 class="manchete mb-4">Manchetes de destaques</h2>
     
-        <div class="instaFooter">       
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="insta2">
-                <p>@tocadocoelho</p>
-            </a>
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <img src="jornal1.jpg" alt="Jornal 1" class="img-fluid mb-3 rounded">
+                <h3>"A escola infantil Toca do Coelho se consolida como referência no setor ao adotar práticas inovadoras que garantem plena acessibilidade para todas as crianças. Com uma infraestrutura adaptada e projetos pedagógicos inclusivos, a instituição se destaca pela criação de um ambiente seguro e acolhedor, onde cada aluno, independentemente de suas necessidades, tem a oportunidade de aprender e se desenvolver com autonomia e igualdade."</h3>
+            </div>
+            <div class="col-md-6">
+                <img src="jornal2.jpg" alt="Jornal 2" class="img-fluid mb-3 rounded">
+                <h3>"A escola infantil Toca do Coelho tem se destacado no cenário educacional por sua abordagem inovadora, voltada para a inclusão e o desenvolvimento integral das crianças. Com décadas de experiência, a instituição se tornou referência em acessibilidade e ensino personalizado, sempre comprometida com a formação de um ambiente acolhedor e adaptado para todos os seus alunos.
+                </h3>
+            </div>
         </div>
-    </footer>
+    </div>
+
 </body>
 </html>
