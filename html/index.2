@@ -6,29 +6,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toca do Coelho</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .logo-img {width: 180px; height: auto;}
+        .main-image{width: 850px; height: auto;} 
+        body{background-color: #E6A06A;}
+        </style>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/coelho.jpg" class="coelho">
+    <header class="bg-success text-white">
+        <div class="container py-5 px-1">
+            <div class="row ">
+                <div  class="col col-sm-4 col-md-4 col-xl-4"><img src="coelho.jpg" class="logo-img " ></div>
+                <div class="col col-sm-4 col-md-4 col-xl-4">
+                    <div class="">
+                        <h1>Toca do Coelho</h1>
+                    </div>
+                        <p>Escoal infantil</p>
+                    </div>
+                <div class="col col-sm-4 col-md-4 col-xl-4 d-flex justify-content-end">
+                    <a href="https://whatsapp.com" class="ms-3"><img src="icons8-whatsapp-50.png" alt="WhatsApp" width="30"></a>
+                    <a href="https://www.instagram.com" class="ms-3"><img src="icons8-instagram-50.png" alt="Instagram" width="30"></a>
+                    <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" class="ms-3"><img src="icons8-localização-64.png" alt="Localização" width="30"></a>
+                </div>
+            </div>
         </div>
-        <div class="titulo">
-            <h1>Toca do Coelho</h1>
-            <h3>Escola Infantil</h3>
-        </div>
-        <nav>
-            <a href="index.1.html">Home</a>
-            <a href="index.3.html">Atividades Extras</a>
-            <a href="index.4.html">História</a>
-        </nav>
-        <div class="social-icons">
-            <a href="https://whatsapp.com"><img src="img/whatsapp-symbol-logo-svgrepo-com.svg" alt="WhatsApp"></a>
-            <a href="https://www.instagram.com"><img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="Instagram"></a>
-            <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400"><img src="img/icons8-google-maps-novo.svg" alt="Contato"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg d-flex justify-content-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#SobreNos">Sobre nós</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.2.html">Matrículas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.3.html">Atividades Extras</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.4.html">História</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
+    <div class="container bg-success">
+        <div class="row my-5 mx-3">
+            <div class="col-md-auto">
+                <h4>Creche</h4>
+                <p>° de 3 meses a 4 anos completos</p>
+            </div>
+            <div class="col col-lg-2">
+                <h4>Pré-escolar</h4>
+                <p>° de 4 anos a 6 anos completos </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row my-5 mx-3">
+            <div class="row py-5">
+                <h2>Matriculas</h2>
+            </div>
+            <div class="col-3 bg-success">
+                <div class="p-2">
+                    <h3>Entre em contato</h3>
+                </div>
+                <div class="p-2">
+                    <img src="icons8-whatsapp-50.png" style="width: 50px; height:auto;">
+                    <p>61 9 9999-9999</p>
+                </div>
+                <div class="p-2">
+                    <p>Para horarios customizados, consulte a secretaria</p>
+                </div>
+            </div>
+            
+            <div class="col-9 p-4">
+                <table class="table table-success table-striped">
+                    <h2>Horarios</h2>
+                    <tbody>
+                        <tr >
+                            <th scope="row">Creche</th>
+                            <td scope="">7:00h as 12:00h</td>
+                            <td scope="">R$500,00/mês</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Creche</th>
+                            <td>7:00h as 12:00h</td>
+                            <td>R$1200,00/mês</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pré-escolar</th>
+                        <td>7:00h as 12:00h</td>
+                        <td>R$800,00/mês</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Pré-escolar</th>
+                          <td>7:00h as 12:00h</td>
+                          <td>R$1500,00/mês</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Natação</th>
+                            <td>seg. e qua. 9:00h a 16:00h</td>
+                            <td>R$200,00/mês</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Luta</th>
+                            <td>ter. e qui. 9:00h a 16:00h</td>
+                            <td>R$200,00/mês</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Dança</th>
+                          <td>Sexta 9:00h a 16:00h</td>
+                          <td>R$150,00/mês</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
     <section>
         <div class="div1">
@@ -54,74 +168,41 @@
                 </div>
                 <p>Para horarios customizados, consulte a secretaria</p>
             </div>
-            <div class="Tabela">
-                <h3>Horários</h3>
-                <div class="linhaVerde">
-                    <p class="C">Creche</p>
-                    <p class="Hr">7:00hr até 12:00hr</p>
-                    <p class="Din">500,00R$/mês</p>
+            
+    </section>
+    <footer class="bg-success py-5 ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 my-3 px-5">
+                    <img src="icons8-google-maps-novo.svg" alt="loc2" width="30">
                 </div>
-                <div class="linhaTransparente">
-                    <p class="C">Creche</p>
-                    <p class="Hr">7:00hr até 18:00hr</p>
-                    <p class="Din">1.200,00R$/mês</p>
+                <div class="col-4 my-3 px-5">
+                    <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="whatsapp-symbol-logo-svgrepo-com.svg" alt="zap2" width="30">
+                    </a>
                 </div>
-                <div class="linhaVerde">
-                    <p class="C">Escolar</p>
-                    <p class="Hr">7:00hr até 12:00hr</p>
-                    <p class="Din">800,00R$/mês</p>
+                <div class="col-4 my-3 px-5">
+                    <img src="instagram-2-1-logo-svgrepo-com.svg" alt="insta2" width="30">
                 </div>
-                <div class="linhaTransparente">
-                    <p class="C">Escolar</p>
-                    <p class="Hr">7:00hr até 18:00hr</p>
-                    <p class="Din">1.500,00R$/mês</p>
+            </div>
+            <div class="row">
+                <div class="col-4 px-5">
+                    <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" target="_blank" rel="noopener noreferrer">
+                    <p>St. de Grandes Áreas Norte SHCGN 707 - Asa Norte, Brasília - DF, 70297-400</p>
+                    </a>
                 </div>
-                <div class="linhaVerde">
-                    <p class="C">Natação</p>
-                    <p class="Hr">seg. e qua. 9:00hr a 16:00hr</p>
-                    <p class="Din">200,00R$/mês</p>
+                <div class="col-4 px-5">
+                    <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                    <p>61 9 9999-9999</p>
+                    </a>
                 </div>
-                <div class="linhaTransparente">
-                    <p class="C">Luta</p>
-                    <p class="Hr">ter. e qui. 9:00hr a 16:00hr</p>
-                    <p class="Din">200,00R$/mês</p>
-                </div>
-                <div class="linhaVerde">
-                    <p class="C">Dança</p>
-                    <p class="Hr">Sex. 10:00hr a 12:00hr</p>
-                    <p class="Din">150,00R$/mês</p>
-                </div>
-                <div class="vazia">
-                    <p class="C"></p>
-                    <p class="Hr">!Varoles de passeios não inclusos!</p>
-                    <p class="Din"></p>
+                <div class="col-4 px-5">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"></a>
+                    <p>@tocadocoelho</p>
                 </div>
             </div>
         </div>
-        
-
-    </section>
-    <footer class="footer">
-        <div class="location">
-            <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" target="_blank" rel="noopener noreferrer">
-                <img src="img/icons8-google-maps-novo.svg" alt="loc2">
-                <p>St. de Grandes Áreas Norte SHCGN 707 - Asa Norte, Brasília - DF, 70297-400</p>
-            </a>
-        </div>
-    
-        <div class="zapFooter">
-            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                <img src="img/whatsapp-symbol-logo-svgrepo-com.svg" alt="zap2">
-                <p>61 9 9999-9999</p>
-            </a>
-        </div>
-    
-        <div class="instaFooter">       
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="insta2">
-                <p>@tocadocoelho</p>
-            </a>
-        </div>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
