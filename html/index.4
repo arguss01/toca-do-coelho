@@ -3,91 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style4.css">
-    <title>Toca do Coelho</title>
+    <title>Toca do Coelho Teste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .logo-img { width: 180px; height: auto; }
+        .main-image { max-width: 100%; height: auto; }
+        body { background-color: #E6A06A; }
+        .small-images img { max-width: 100%; height: auto; }
+        .body{ display: none; }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/coelho.jpg" class="coelho">
+    <header class="bg-success text-white">
+        <div class="container-fluid py-5 px-1">
+            <div class="row text-center text-sm-end ">
+                <div  class="col col-sm-4 col-md-4 col-xl-4 "><img src="coelho (1).jpg" class="logo-img " ></div>
+                <div class="col col-sm-4 col-md-4 col-xl-4 ">
+                    <div class="d-flex justify-content-center">
+                        <h1>Toca do Coelho</h1>
+                    </div>
+                <p class="text-warning d-flex justify-content-center">Escoal infantil</p>
+                </div>
+                <div class="col col-sm-4 col-md-4 col-xl-4 d-flex justify-content-end">
+                    <a href="href=https://whatsapp.com" class="link-offset-2 link-underline link-underline-opacity-0 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer" >
+                        <svg  class="ms-3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/" class="link-offset-2 link-underline link-underline-opacity-0 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">  
+                        <svg class="ms-3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" class="link-offset-2 link-underline link-underline-opacity-0 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">
+                        <svg  class="ms-3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                    </a>
+                    
+                </div>
+            </div>
         </div>
-        <div class="titulo">
-            <h1>Toca do Coelho</h1>
-            <h3>Escola Infantil</h3>
-        </div>
-        <nav>
-            <a href="index.1.html">Home</a>
-            <a href="index.2.html">Matrículas</a>
-            <a href="index.3.html">Atividades Extras</a>
-        </nav>
-        <div class="social-icons">
-            <a href="https://whatsapp.com"><img src="img/whatsapp-symbol-logo-svgrepo-com.svg" alt="WhatsApp"></a>
-            <a href="https://www.instagram.com"><img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="Instagram"></a>
-            <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400"><img src="img/icons8-google-maps-novo.svg" alt="Contato"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg d-flex justify-content-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.1.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.2.html">Matrículas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.3.html">Atividades Extras</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
-
-    <h2 class="historia">História</h2>
-    <div class="um">
-        <img src="img/hist.jpeg" class="branco">
-        <p>Na escola infantil Toca do Coelho, a tradição católica sempre foi parte fundamental da sua história, transmitida de geração em geração com o mesmo carinho e respeito desde a sua fundação. A escola nasceu do sonho de uma família católica, há mais de [XX] anos, que acreditava que a fé deveria ser cultivada desde a infância, junto com o ensino escolar. Desde o princípio, o objetivo foi criar um espaço onde os valores cristãos pudessem ser vividos diariamente, tanto dentro quanto fora da sala de aula.
-
-            Os fundadores da Toca do Coelho eram pessoas profundamente comprometidas com a fé católica e queriam que as crianças tivessem a oportunidade de crescer em um ambiente que refletisse esses princípios. Com o passar do tempo, seus filhos, e mais tarde seus netos, assumiram a direção da escola, mantendo viva essa essência e adaptando-a aos novos tempos, mas sem nunca perder de vista as raízes religiosas que sempre guiaram a instituição.
-            
-            Uma das marcas mais bonitas dessa tradição são as celebrações religiosas que acontecem ao longo do ano letivo. Datas importantes do calendário cristão, como o Natal, a Páscoa e o Dia de Todos os Santos, são comemoradas com atividades que envolvem não apenas as crianças, mas também suas famílias. Essas festividades são momentos de união, em que a comunidade escolar se reúne para celebrar a fé, reforçar os ensinamentos cristãos e praticar a solidariedade.
-            
-            A Toca do Coelho sempre manteve um forte compromisso com a formação espiritual de seus alunos, respeitando a liberdade de crença de cada família, mas oferecendo às crianças a oportunidade de aprender e viver valores como o respeito, a empatia e o amor ao próximo. O ensino religioso é conduzido de forma carinhosa e inclusiva, apresentando os fundamentos da fé católica por meio de histórias bíblicas, orações e projetos que ensinam as crianças sobre o cuidado com o outro e o mundo.
-            
-            Essa tradição católica, passada de geração em geração, se reflete também na convivência diária da escola. Os professores, muitos dos quais já fazem parte da comunidade escolar há décadas, carregam consigo a missão de transmitir esses valores às novas gerações. Alguns educadores, que começaram na escola como alunos, hoje retornam como professores, perpetuando a mesma fé e os mesmos ensinamentos que receberam quando crianças.
-            
-            A continuidade dessa tradição é visível nos ex-alunos que, ao crescerem, trazem seus filhos para a escola. Eles, que foram educados na Toca do Coelho, desejam que seus filhos também cresçam em um ambiente que valorize a fé e os princípios cristãos. Dessa forma, o legado da escola continua a se expandir, criando um círculo de fé e educação que abrange diversas gerações de famílias.
-            
-            Assim, a Toca do Coelho segue firme em sua missão de oferecer não só uma educação de qualidade, mas também um espaço onde a fé católica é parte integrante da formação dos pequenos. Essa tradição, que começou há tantos anos com uma simples ideia, continua viva e forte, sendo cuidadosamente passada de geração em geração, sempre com o mesmo propósito: formar crianças não apenas para o mundo, mas também para a vida espiritual, com base em valores que durarão por toda a vida.
-        </p>
-    </div>
-    <div class="dois">
-        <p>
-            Na Toca do Coelho, a ligação com a Virgem Maria é uma parte essencial da espiritualidade da escola, refletindo o profundo respeito e carinho que a comunidade escolar tem por sua figura maternal. Desde a fundação da escola, a Virgem Maria tem sido vista como um modelo de fé, amor e cuidado, e sua presença é sentida em diversas práticas e tradições que permeiam o cotidiano da instituição.
-
-            A devoção à Virgem Maria é incorporada nas atividades diárias, começando pelas orações matinais, onde os alunos são incentivados a fazer uma pequena oração pedindo a proteção e a intercessão de Maria. Esse momento de espiritualidade não só inicia o dia com um espírito positivo, mas também ajuda as crianças a desenvolverem um vínculo pessoal com a figura da mãe de Jesus, reconhecendo-a como um exemplo de amor incondicional e compaixão.
-
-            Além das orações, a Toca do Coelho celebra várias festividades dedicadas à Virgem Maria ao longo do ano. Uma das mais especiais é a Festa de Nossa Senhora, que reúne alunos, pais e educadores em um dia de celebrações, que incluem missas, apresentações e atividades lúdicas. Esses eventos são uma oportunidade para a comunidade se unir em oração e gratidão, promovendo um ambiente de harmonia e fé. As crianças aprendem sobre a vida de Maria, seus valores e virtudes, e como esses ensinamentos podem ser aplicados em suas próprias vidas.
-
-            A imagem da Virgem Maria também está presente nas dependências da escola, com estátuas e quadros que decoram os espaços, servindo como um lembrete constante de sua presença amorosa. Essas representações visuais ajudam a criar um ambiente espiritual acolhedor, onde os alunos podem se sentir protegidos e amparados, sabendo que Maria é uma figura que sempre está ao seu lado.
-
-            Outro aspecto importante dessa ligação é a promoção da compaixão e do cuidado ao próximo, características que a Virgem Maria exemplifica. As crianças são incentivadas a praticar atos de bondade e solidariedade, refletindo os ensinamentos de Maria sobre amor ao próximo. Projetos sociais e campanhas de arrecadação de alimentos e roupas são organizados, promovendo a empatia e a responsabilidade social entre os alunos.
-
-            Dessa forma, a ligação da Toca do Coelho com a Virgem Maria vai muito além de uma simples devoção; ela se manifesta em ações concretas e em um ambiente que promove o amor, a solidariedade e a espiritualidade. Através da figura materna de Maria, as crianças aprendem sobre a importância de cultivar a fé e os valores cristãos em suas vidas, formando assim uma base sólida para seu crescimento pessoal e espiritual. Essa conexão profunda com a Virgem Maria é um legado que continua a inspirar e guiar a comunidade da Toca do Coelho a cada dia.
-        </p>
-        <img src="img/santo.jpg" class="branco">
-    </div>
-
-    <footer class="footer">
-        <div class="location">
-            <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" target="_blank" rel="noopener noreferrer">
-                <img src="img/icons8-google-maps-novo.svg" alt="loc2">
-                <p>St. de Grandes Áreas Norte SHCGN 707 - Asa Norte, Brasília - DF, 70297-400</p>
-            </a>
-        </div>
     
-        <div class="zapFooter">
-            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                <img src="img/whatsapp-symbol-logo-svgrepo-com.svg" alt="zap2">
-                <p>61 9 9999-9999</p>
-            </a>
+    <section class="container-fluid my-5">
+        <h2 id="SobreNos">Manchetes de destaquess</h2>
+        <div class="row">
+            <div class="col-lg-8 col-md-12 mb-3">
+                <p class="lead">a escola infantil Toca do Coelho narra sua fundação por uma família católica há muitos anos, com o objetivo de integrar a fé católica ao ensino escolar desde a infância. Os valores cristãos são parte fundamental da escola, sendo transmitidos de geração em geração, mantendo a tradição e adaptando-se aos novos tempos. Celebrações religiosas como Natal e Páscoa são momentos importantes de união entre a comunidade escolar e as famílias. O ensino religioso é inclusivo e focado em valores como respeito, empatia e amor ao próximo. Ex-alunos, ao crescerem, traga seus filhos para perpet</p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <img src="jornal2.jpg" alt="Assistente" class="img-fluid">
+            </div>
         </div>
-    
-        <div class="instaFooter">       
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="insta2">
-                <p>@tocadocoelho</p>
-            </a>
+    </section>
+
+    <section class="container-fluid my-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <img src="jornal1.jpg" alt="Assistente" class="img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-12 mb-3">
+               <p class="lead">destaca a forte conexão da escola infantil Toca do Coelho com a Virgem Maria, vista como um modelo de amor, fé e cuidado. A devoção a Maria é incorporada nas ações diárias e em festividades como a Festa de Nossa Senhora, envolvendo alunos, pais e professores em celebrações religiosas. A figura de Maria está presente em quadros e estátuas pela escola, criando um ambiente acolhedor e espiritual. A escola promove valores de compaixão e solidariedade, incentivando as crianças a praticarem a segurança e a responsabilidade social, inspiradas na fé da santa</p>            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+                <nav class="d-flex justify-content-center" aria-label="...">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" onclick="window.history.back(); return false;">Previous</a>
+                        </li>
+                        <li class="page-item "><a class="page-link" href="index.1.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="index.2.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="index.3.html">3</a></li>
+                        <li class="page-item active"><a class="page-link" href="index.4.html">4</a></li>
+                        <li class="page-item"><a class="page-link" href="index.4.html">Next</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </div>
+
+    <footer class="bg-success py-5">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a href="https://www.google.com/maps?q=St.+de+Grandes+Áreas+Norte+SHCGN+707+-+Asa+Norte,+Brasília+-+DF,+70297-400" 
+                       class="link-light" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a href="https://whatsapp.com" class="link-light" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <a href="https://www.instagram.com/" class="link-light" target="_blank" rel="noopener noreferrer">  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.203.276-1.485.145-.373.319-.64.598-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.275.843-.038 1.096-.046 3.232-.046zm0 2.5a4.056 4.056 0 1 0 0 8.112 4.056 4.056 0 0 0 0-8.112zm0 1.595a2.461 2.461 0 1 1 0 4.922 2.461 2.461 0 0 1 0-4.922zm4.742-.462a.98.98 0 1 0 0 1.96.98.98 0 0 0 0-1.96z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
-
